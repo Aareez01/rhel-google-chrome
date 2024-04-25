@@ -12,3 +12,5 @@ https://rpmfind.net/linux/centos/8-stream/AppStream/x86_64/os/Packages/mesa-vulk
 
 
 yum install https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm
+
+dnf install -y libX11 libX11-common libXau libXext libwayland-client libxcb 
