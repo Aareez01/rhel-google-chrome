@@ -1,12 +1,12 @@
 dnf update
 dnf install wget
+dnf install https://dl.fedoraproject.org/pub/epel/epel-release-latest-8.noarch.rpm
+dnf install http://repo.okay.com.mx/centos/8/x86_64/release/okay-release-1-5.el8.noarch.rpm --nogpgcheck
 wget https://dl.fedoraproject.org/pub/epel/8/Everything/x86_64/Packages/c/chromium-common-123.0.6312.122-1.el8.x86_64.rpm
 dnf install chromium-common-123.0.6312.122-1.el8.x86_64.rpm
 wget https://dl.fedoraproject.org/pub/epel/8/Everything/x86_64/Packages/c/chromium-123.0.6312.122-1.el8.x86_64.rpm
 wget http://mirror.centos.org/centos/8-stream/AppStream/x86_64/os/Packages/qt5-qtbase-5.15.3-7.el8.x86_64.rpm
 dnf install qt5-qtbase-5.15.3-7.el8.x86_64.rpm
-dnf install https://dl.fedoraproject.org/pub/epel/epel-release-latest-8.noarch.rpm
-dnf install http://repo.okay.com.mx/centos/8/x86_64/release/okay-release-1-5.el8.noarch.rpm --nogpgcheck
 dnf upgrade --nogpgcheck
 dnf install qt5-qtbase --nogpgcheck
 wget https://pkgs.sysadmins.ws/el8/extras/x86_64/pipewire-libs-1.0.3-1.el8.x86_64.rpm
