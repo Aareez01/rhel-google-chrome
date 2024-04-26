@@ -35,3 +35,6 @@ npx @puppeteer/browsers install chromedriver@canary
 # Download a specific ChromeDriver version.
 npx @puppeteer/browsers install chromedriver@116.0.5793.0
 
+
+npx @puppeteer/browsers install chromedriver@116.0.5793.0 --unsafe-perm=true --allow-root
+
