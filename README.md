@@ -18,3 +18,5 @@ dnf install -y libX11 libX11-common libXau libXext libwayland-client libxcb
 https://snapcraft.io/install/chromium/rhel
 
 https://repo.almalinux.org/almalinux/8/BaseOS/x86_64/os/Packages/squashfs-tools-4.3-20.el8.x86_64.rpm
+
+https://rpmfind.net/linux/centos/8-stream/AppStream/x86_64/os/Packages/qt5-qtbase-5.15.3-7.el8.x86_64.rpm
