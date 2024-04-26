@@ -16,3 +16,5 @@ yum install https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.r
 dnf install -y libX11 libX11-common libXau libXext libwayland-client libxcb 
 
 https://snapcraft.io/install/chromium/rhel
+
+https://repo.almalinux.org/almalinux/8/BaseOS/x86_64/os/Packages/squashfs-tools-4.3-20.el8.x86_64.rpm
