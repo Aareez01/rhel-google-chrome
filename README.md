@@ -20,3 +20,18 @@ https://snapcraft.io/install/chromium/rhel
 https://repo.almalinux.org/almalinux/8/BaseOS/x86_64/os/Packages/squashfs-tools-4.3-20.el8.x86_64.rpm
 
 https://rpmfind.net/linux/centos/8-stream/AppStream/x86_64/os/Packages/qt5-qtbase-5.15.3-7.el8.x86_64.rpm
+
+
+
+# Download the latest available Chrome for Testing binary corresponding to the Stable channel.
+npx @puppeteer/browsers install chrome@stable
+
+# Download a specific Chrome for Testing version.
+npx @puppeteer/browsers install chrome@116.0.5793.0
+
+# Download the latest available ChromeDriver version corresponding to the Canary channel.
+npx @puppeteer/browsers install chromedriver@canary
+
+# Download a specific ChromeDriver version.
+npx @puppeteer/browsers install chromedriver@116.0.5793.0
+
