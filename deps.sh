@@ -13,8 +13,6 @@ wget https://pkgs.sysadmins.ws/el8/extras/x86_64/pipewire-libs-1.0.3-1.el8.x86_6
 dnf install http://mirror.centos.org/centos/8-stream/BaseOS/x86_64/os/Packages/libtdb-1.4.9-0.el8.x86_64.rpm
 dnf install http://mirror.centos.org/centos/8-stream/AppStream/x86_64/os/Packages/sound-theme-freedesktop-0.8-9.el8.noarch.rpm
 dnf install http://mirror.centos.org/centos/8-stream/AppStream/x86_64/os/Packages/libcanberra-0.30-18.el8.x86_64.rpm --nogpgcheck
-dnf install https://centos.pkgs.org/8-stream/centos-appstream-x86_64/glibmm24-2.56.0-2.el8.x86_64.rpm.html
-dnf install http://mirror.centos.org/centos/8-stream/AppStream/x86_64/os/Packages/glibmm24-2.56.0-2.el8.x86_64.rpm
 dnf install http://mirror.centos.org/centos/8-stream/AppStream/x86_64/os/Packages/libsigc++20-2.10.0-6.el8.x86_64.rpm
 dnf install http://mirror.centos.org/centos/8-stream/AppStream/x86_64/os/Packages/glibmm24-2.56.0-2.el8.x86_64.rpm
 dnf install https://repo.almalinux.org/almalinux/8/BaseOS/x86_64/os/Packages/libconfig-1.5-9.el8.x86_64.rpm
